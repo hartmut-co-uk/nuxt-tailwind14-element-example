@@ -1,6 +1,6 @@
 # nuxt-tailwind14-element-example
 
-> My fabulous Nuxt.js project
+> Nuxt sample app with **@nuxtjs/tailwindcss & element-ui** - featuring new **tailwindcss v1.4 purge** in harmony with element-ui styles (not getting purged). 
 
 ## Live Preview
 
