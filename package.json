@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-tailwind14-element-example",
+  "version": "1.0.0",
+  "description": "My fabulous Nuxt.js project",
+  "author": "Hartmut",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate",
+    "deploy:gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup"
+  },
+  "dependencies": {
+    "element-ui": "^2.4.11",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^2.0.0",
+    "push-dir": "latest"
+  }
+}
